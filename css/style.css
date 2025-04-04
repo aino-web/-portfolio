@@ -112,10 +112,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-template-rows: min-content;
+    max-width: 100%;
+    overflow: hidden;
 }
 .items-content {
     padding: 1rem;
-
 }
 /* listの配置 */
 .sentence { /* 中身の上部 */
@@ -252,14 +253,14 @@ body {
     }
 
     .outerFrame {
-        margin: 2rem;
+        margin: 0.9rem;
     }
     .innerFrame {
         padding: 1rem;
         margin: 1rem;
     }
     .container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: min-content;
     }
     .profile {
