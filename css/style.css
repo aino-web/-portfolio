@@ -100,7 +100,6 @@ body {
 /* 配置 */
 /* Skillの要素の配置 */
 .items {
-    padding: 10px;
     border: 3px solid #ccc;
 }
 .container {
@@ -108,6 +107,9 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     grid-template-rows: 1fr 1fr 1fr;
+}
+.items-content {
+    padding: 10px;
 }
 /* listの配置 */
 .sentence { /* 中身の上部 */
@@ -128,6 +130,20 @@ body {
     background-color: #778899;
     color: #FFF;
 
+}
+
+/*アプリ画像*/
+.image-container {
+    width: 100%;
+    height: 45%;
+    position: relative; /*子要素の絶対配置の基準に*/
+    overflow: hidden; /*領域外の画像を非表示に*/
+}
+.app-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*画像の縦横比を維持し、領域を埋めるように表示*/
+    object-position: top; /*画像の表示位置を上部に合わせる*/
 }
 
 
