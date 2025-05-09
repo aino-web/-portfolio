@@ -268,9 +268,6 @@ p {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: min-content;
     }
-    .items {
-        max-width: 400px;
-    }
     .profile {
         grid-template-columns: repeat(1, 1fr);
     }
