@@ -21,6 +21,9 @@ body {
     margin: 3rem;
     overflow: hidden;
 }
+p {
+    text-align: left;
+}
 
 /* header */
 .page-header {
@@ -113,6 +116,7 @@ body {
     gap: 10px;
     grid-template-rows: min-content;
     max-width: 100%;
+    text-align: center;
     overflow: hidden;
 }
 .items-content {
@@ -122,6 +126,7 @@ body {
 .sentence { /* 中身の上部 */
     list-style-position: inside;
     list-style-type: disc;
+    text-align: left;
 }
 .item {
     justify-content: center;
